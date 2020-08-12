@@ -7,5 +7,6 @@ ADD  https://www.free-css.com/assets/files/free-css-templates/download/page257/c
 WORKDIR /var/www/html
 RUN unzip chershoee.zip
 RUN cp -rvf chershoee/*
+RUN rm -rf chershoee chershoee.zip
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
 EXPOSE 80
