@@ -1,3 +1,9 @@
+# What is a Happier Place ?
+“Happier Place is an Internal Developer Platform (IDP) I built for our engineering teams. It’s a central hub where developers create, monitor, test, and merge isolated cloud environments before code goes to production. Instead of developers manually calling Jenkins, checking GitHub PRs, or toggling sportsbook feeds, everything is unified in one React UI backed by a Node/Express API that orchestrates GitHub, Jenkins, ClickUp, Slack, and Postgres.”
+Core problem it solves: Managing env/* branches across dozens of microservices is painful. Happier Place automates environment lifecycle, visibility, and release workflows
+“I built Happier Place as an internal developer platform. The frontend is React with Recoil for state and a commands layer for API calls. The backend is Express/TypeScript with Postgres, orchestrating GitHub, Jenkins, and ClickUp. The main value is giving developers one place to manage the full environment lifecycle.”
+
+
 # Happier Place — Interview Prep Guide
 
 > **Purpose:** Read this before your interview. It covers a 2-minute pitch, common Q&A, and a merge-flow diagram for system design rounds.
